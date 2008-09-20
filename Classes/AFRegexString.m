@@ -137,7 +137,7 @@ int rreplace (char *buf, int size, regex_t *re, char *rp)
 
 -(NSString *)escapedPattern
 {
-	int len=[self length];
+	int len = [self length];
 	NSMutableString *escaped=[NSMutableString stringWithCapacity:len];
 	
 	for(int i=0; i<len; i++)
