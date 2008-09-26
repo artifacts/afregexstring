@@ -230,8 +230,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -271,11 +269,12 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>0574434F0E828BE2009DE04C</string>
+								<string>29B97315FDCFA39411CA2CEA</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>4</integer>
 									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
@@ -310,12 +309,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>057442210E824B56009DE04C</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AFRegexString.h</string>
+								<string>AFRegexString.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,19 +324,21 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>057442220E824B56009DE04C</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AFRegexString.h</string>
+										<string>AFRegexString.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>054BA7E80E8468BB00DB46E5</string>
+										<string>054BA9210E847F7800DB46E5</string>
 										<key>history</key>
 										<array>
-											<string>05EB0A430E83A9A60007F55D</string>
-											<string>05EB0A440E83A9A60007F55D</string>
-											<string>05EB0A450E83A9A60007F55D</string>
-											<string>05EB0A460E83A9A60007F55D</string>
-											<string>054BA7E30E8468BB00DB46E5</string>
-											<string>054BA7E40E8468BB00DB46E5</string>
+											<string>054BA8F40E847F7800DB46E5</string>
+											<string>054BA8F50E847F7800DB46E5</string>
+											<string>054BA8F60E847F7800DB46E5</string>
+											<string>054BA8F70E847F7800DB46E5</string>
+											<string>054BA8F80E847F7800DB46E5</string>
+											<string>054BA8F90E847F7800DB46E5</string>
+											<string>054BA8FA0E847F7800DB46E5</string>
+											<string>054BA8FB0E847F7800DB46E5</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -345,9 +348,43 @@
 											<string>0574436F0E829148009DE04C</string>
 											<string>057443730E829148009DE04C</string>
 											<string>057443780E829148009DE04C</string>
-											<string>054BA7E50E8468BB00DB46E5</string>
-											<string>054BA7E60E8468BB00DB46E5</string>
-											<string>054BA7E70E8468BB00DB46E5</string>
+											<string>054BA8FC0E847F7800DB46E5</string>
+											<string>054BA8FD0E847F7800DB46E5</string>
+											<string>054BA8FE0E847F7800DB46E5</string>
+											<string>054BA8FF0E847F7800DB46E5</string>
+											<string>054BA9000E847F7800DB46E5</string>
+											<string>054BA9010E847F7800DB46E5</string>
+											<string>054BA9020E847F7800DB46E5</string>
+											<string>054BA9030E847F7800DB46E5</string>
+											<string>054BA9040E847F7800DB46E5</string>
+											<string>054BA9050E847F7800DB46E5</string>
+											<string>054BA9060E847F7800DB46E5</string>
+											<string>054BA9070E847F7800DB46E5</string>
+											<string>054BA9080E847F7800DB46E5</string>
+											<string>054BA9090E847F7800DB46E5</string>
+											<string>054BA90A0E847F7800DB46E5</string>
+											<string>054BA90B0E847F7800DB46E5</string>
+											<string>054BA90C0E847F7800DB46E5</string>
+											<string>054BA90D0E847F7800DB46E5</string>
+											<string>054BA90E0E847F7800DB46E5</string>
+											<string>054BA90F0E847F7800DB46E5</string>
+											<string>054BA9100E847F7800DB46E5</string>
+											<string>054BA9110E847F7800DB46E5</string>
+											<string>054BA9120E847F7800DB46E5</string>
+											<string>054BA9130E847F7800DB46E5</string>
+											<string>054BA9140E847F7800DB46E5</string>
+											<string>054BA9150E847F7800DB46E5</string>
+											<string>054BA9160E847F7800DB46E5</string>
+											<string>054BA9170E847F7800DB46E5</string>
+											<string>054BA9180E847F7800DB46E5</string>
+											<string>054BA9190E847F7800DB46E5</string>
+											<string>054BA91A0E847F7800DB46E5</string>
+											<string>054BA91B0E847F7800DB46E5</string>
+											<string>054BA91C0E847F7800DB46E5</string>
+											<string>054BA91D0E847F7800DB46E5</string>
+											<string>054BA91E0E847F7800DB46E5</string>
+											<string>054BA91F0E847F7800DB46E5</string>
+											<string>054BA9200E847F7800DB46E5</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -387,8 +424,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1009, 92}}</string>
-										<key>RubberWindowFrame</key>
-										<string>61 955 1280 969 61 900 1280 1024 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -443,6 +478,8 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1009, 92}}</string>
+										<key>RubberWindowFrame</key>
+										<string>61 955 1280 969 61 900 1280 1024 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -470,11 +507,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>054BA7E90E8468BB00DB46E5</string>
+				<string>054BA9220E847F7800DB46E5</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>054BA7EA0E8468BB00DB46E5</string>
+				<string>054BA9230E847F7800DB46E5</string>
 				<string>057442210E824B56009DE04C</string>
-				<string>054BA7EB0E8468BB00DB46E5</string>
+				<string>054BA9240E847F7800DB46E5</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -658,7 +695,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/mic/Xcode Projects/regex/regex.xcodeproj</string>
+		<string>/Users/mic/Xcode Projects/afregexstring/regex.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>61 955 1280 969 61 900 1280 1024 </string>

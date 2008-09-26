@@ -31,7 +31,7 @@
 
 @interface NSString (AFRegex)
 
-- (NSString *)stringWithRegexPattern:(NSString*)pattern substitute:(NSString*)substitute;
+- (NSString *)stringByRegex:(NSString*)pattern substitution:(NSString*)substitute;
 - (BOOL)matchesPattern:(NSString*)pattern;
 - (BOOL)matchesPattern:(NSString*)pattern options:(int)options;
 

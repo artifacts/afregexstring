@@ -67,7 +67,7 @@ int rreplace (char *buf, int size, regex_t *re, char *rp)
 
 @implementation NSString (AFRegex)
 
-- (NSString *)stringWithRegexPattern:(NSString*)pattern substitute:(NSString*)substitute
+- (NSString *)stringByRegex:(NSString*)pattern substitution:(NSString*)substitute
 {
 	regex_t preg;
 

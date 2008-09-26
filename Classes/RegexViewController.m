@@ -33,13 +33,13 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-	self.output.text = [self.input.text stringWithRegexPattern:self.pattern.text substitute:self.substitute.text];
+	self.output.text = [self.input.text stringByRegex:self.pattern.text substitution:self.substitute.text];
 }
 
 - (void)textFieldDidEndEditing:(UITextField *)textField
 {
 	@try { 
-		self.output.text = [self.input.text stringWithRegexPattern:self.pattern.text substitute:self.substitute.text];
+		self.output.text = [self.input.text stringByRegex:self.pattern.text substitution:self.substitute.text];
 	} 
 	@catch (NSException *exception) 
 	{ 
