@@ -29,7 +29,7 @@
 @end
 
 
-@interface NSString (CSRegex)
+@interface NSString (AFRegex)
 
 - (NSString *)stringWithRegexPattern:(NSString*)pattern substitute:(NSString*)substitute;
 - (BOOL)matchesPattern:(NSString*)pattern;
